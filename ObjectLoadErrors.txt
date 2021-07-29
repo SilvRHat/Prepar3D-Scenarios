@@ -1,0 +1,7 @@
+UnlimitedFuelHack (Error Circumventing) Information: Using default UserTips (Enabled)
+UnlimitedFuelHack (Error Circumventing) Information: Using default AvatarNoCollision (Disabled)
+UnlimitedFuelHack (Error Circumventing) Information: Using default AircraftLabels (Enabled)
+UnlimitedFuelHack (Error Circumventing) Information: Using default FlightRealism (Relaxed)
+UnlimitedFuelHack (Error Circumventing) Information: Using default WorldRealism (Relaxed)
+ObjectActivationAction Warning: Target object #1 already deactivated
+ObjectActivationAction Warning: Target object #2 already deactivated
