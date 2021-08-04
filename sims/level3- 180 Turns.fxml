@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 
-<SimBase.Document Type="ScenarioFile" version="5,1" id="level2- Short Turns">
+<SimBase.Document Type="ScenarioFile" version="5,1" id="level3- 180 Turns">
     <Descr>AceXML Document</Descr>
-    <Filename>level2- Short Turns.fxml</Filename>
+    <Filename>level3- 180 Turns.fxml</Filename>
     <Flight.Sections>
         <Section Name="Main">
             <Property Name="Title" Value="Level2 - Short Turns" />
@@ -278,7 +278,7 @@
             <Property Name="PostProcess.1" Value="FXAAResolve" />
         </Section>
         <Section Name="Camera.1.22">
-            <Property Name="Guid" Value="{A550D19A-F609-4F4A-A04F-2FF2F660A3A8}" />
+            <Property Name="Guid" Value="{FF3E077E-5CFA-4751-990D-A6487A7F3F8D}" />
             <Property Name="Title" Value="UICam Object Camera View" />
             <Property Name="PanelOnlyView" Value="False" />
             <Property Name="Zoom" Value="0.5" />
@@ -735,18 +735,18 @@
             <Property Name="Descr" Value="plr" />
         </Section>
         <Section Name="SimVars.0">
-            <Property Name="Latitude" Value="N35&#xB0; 28&apos; 2.28&quot;" />
-            <Property Name="Longitude" Value="E140&#xB0; 40&apos; 39.90&quot;" />
+            <Property Name="Latitude" Value="N34&#xB0; 54&apos; 18.84&quot;" />
+            <Property Name="Longitude" Value="E140&#xB0; 44&apos; 8.70&quot;" />
             <Property Name="Altitude" Value="+009999.36" />
-            <Property Name="Pitch" Value="8.9434906840324401855e-05" />
-            <Property Name="Bank" Value="1.5590339899063110352e-05" />
-            <Property Name="Heading" Value="91.499984906986355782" />
+            <Property Name="Pitch" Value="7.7951699495315551758e-05" />
+            <Property Name="Bank" Value="4.0233135223388671875e-06" />
+            <Property Name="Heading" Value="71.499963635578751564" />
             <Property Name="PVelBodyAxis" Value="0" />
             <Property Name="BVelBodyAxis" Value="0" />
             <Property Name="HVelBodyAxis" Value="0" />
             <Property Name="XVelBodyAxis" Value="0" />
             <Property Name="YVelBodyAxis" Value="0" />
-            <Property Name="ZVelBodyAxis" Value="438.83056284424731075" />
+            <Property Name="ZVelBodyAxis" Value="438.83056284369627065" />
             <Property Name="SimOnGround" Value="False" />
             <Property Name="OnPlatformHeight" Value="-9999999999" />
             <Property Name="AssociationID" Value="0" />
@@ -925,9 +925,9 @@
             <Property Name="LeftFlap" Value="000.00" />
             <Property Name="RightFlap" Value="000.00" />
             <Property Name="GearsHandle" Value="000.01" />
-            <Property Name="Gear1" Value="098.84" />
-            <Property Name="Gear2" Value="098.84" />
-            <Property Name="Gear3" Value="098.84" />
+            <Property Name="Gear1" Value="098.80" />
+            <Property Name="Gear2" Value="098.80" />
+            <Property Name="Gear3" Value="098.80" />
             <Property Name="YokeY" Value="050.00" />
             <Property Name="YokeX" Value="050.00" />
             <Property Name="Rudder" Value="050.00" />
@@ -947,8 +947,8 @@
             <Property Name="ContainerTitle" Value="Civilian Male White Shirt Blue Jeans" />
             <Property Name="UserCamera" Value="{00000000-0000-0000-0000-000000000000}" />
             <Property Name="AvatarCamera" Value="{00000000-0000-0000-0000-000000000000}" />
-            <Property Name="Latitude" Value="N35&#xB0; 28&apos; 2.28&quot;" />
-            <Property Name="Longitude" Value="E140&#xB0; 40&apos; 39.90&quot;" />
+            <Property Name="Latitude" Value="N34&#xB0; 54&apos; 18.84&quot;" />
+            <Property Name="Longitude" Value="E140&#xB0; 44&apos; 8.70&quot;" />
             <Property Name="Altitude" Value="+009999.36" />
             <Property Name="Pitch" Value="0" />
             <Property Name="Bank" Value="0" />
@@ -987,7 +987,7 @@
             <Property Name="DurationTotal" Value="0" />
         </Section>
         <Section Name="ObjectFile">
-            <Property Name="File" Value="level2- Short Turns" />
+            <Property Name="File" Value="level3- 180 Turns" />
         </Section>
         <Section Name="Camera.1.27">
             <Property Name="Guid" Value="{037AB312-F502-4900-A853-581C9544F971}" />
