@@ -228,7 +228,7 @@ varset(&apos;S:continue&apos;,&apos;STRING&apos;, &apos;exp&apos;)</Script>
         </SimMission.ObjectActivationAction>
         <SimMission.LoadScenarioAction InstanceId="{660E8CD9-0B7D-4F2B-B499-636FED4ACB07}">
             <Descr>Survey3 Load Lvl2</Descr>
-            <ScenarioFileName>sims\level2 - Freestyle.fxml</ScenarioFileName>
+            <ScenarioFileName>sims\level2- Short Turns.fxml</ScenarioFileName>
         </SimMission.LoadScenarioAction>
         <SimMission.ObjectActivationAction InstanceId="{D802437A-D2D4-4730-9258-52FEF3A3F317}">
             <Descr>Gate4 Activate</Descr>
@@ -404,7 +404,6 @@ return true</Script>
         <SimMission.ProximityTrigger InstanceId="{3276F181-4E52-46A5-90DB-3AC1CAE74D47}">
             <Descr>Gate1 HitTrigger</Descr>
             <ObjectFilter>Reference</ObjectFilter>
-            <Activated>False</Activated>
             <Areas>
                 <ObjectReference InstanceId="{C6264E5F-9E2A-404B-BB4E-8D0C4A0EDF08}">
                 </ObjectReference>
@@ -568,7 +567,6 @@ return varget(&apos;S:continue&apos;,&apos;STRING&apos;)~=&apos;exp&apos;</Scrip
             <AltitudeIsAGL>True</AltitudeIsAGL>
             <NoAutogenSuppression>True</NoAutogenSuppression>
             <NoCrash>True</NoCrash>
-            <Activated>False</Activated>
         </SceneryObjects.LibraryObject>
         <SceneryObjects.LibraryObject InstanceId="{76D00F0C-5A8E-4FF5-96D7-F9D01B6EB078}">
             <Descr>Gate1 Hoop Inactive</Descr>
@@ -579,11 +577,12 @@ return varget(&apos;S:continue&apos;,&apos;STRING&apos;)~=&apos;exp&apos;</Scrip
             <AltitudeIsAGL>True</AltitudeIsAGL>
             <NoAutogenSuppression>True</NoAutogenSuppression>
             <NoCrash>True</NoCrash>
+            <Activated>False</Activated>
         </SceneryObjects.LibraryObject>
         <SceneryObjects.LibraryObject InstanceId="{71FA00E1-B62E-4072-A1EA-E1B129CF8487}">
             <Descr>Gate2 Hoop Active</Descr>
             <MDLGuid>{00985A24-4AF0-4F5E-BA64-32F165A7FE55}</MDLGuid>
-            <WorldPosition>N35° 29' 7.017001",E139° 59' 31.755320",+009392.36</WorldPosition>
+            <WorldPosition>N35° 29' 7.017001",E139° 57' 48.010839",+009392.36</WorldPosition>
             <Orientation>0.000000,2.000000,275.999929</Orientation>
             <Scale>1.000000</Scale>
             <AltitudeIsAGL>True</AltitudeIsAGL>
@@ -594,7 +593,7 @@ return varget(&apos;S:continue&apos;,&apos;STRING&apos;)~=&apos;exp&apos;</Scrip
         <SceneryObjects.LibraryObject InstanceId="{22D76F85-EE70-4ADA-B7E2-CDF33CD67187}">
             <Descr>Gate2 Hoop Inactive</Descr>
             <MDLGuid>{F76E810D-41B8-4990-9390-679A2DCE81F1}</MDLGuid>
-            <WorldPosition>N35° 29' 7.017001",E139° 59' 31.755320",+009392.36</WorldPosition>
+            <WorldPosition>N35° 29' 7.017001",E139° 57' 48.010839",+009392.36</WorldPosition>
             <Orientation>0.000000,2.000000,275.999929</Orientation>
             <Scale>1.000000</Scale>
             <AltitudeIsAGL>True</AltitudeIsAGL>
@@ -604,7 +603,7 @@ return varget(&apos;S:continue&apos;,&apos;STRING&apos;)~=&apos;exp&apos;</Scrip
         <SceneryObjects.LibraryObject InstanceId="{1ED6C8EC-7CB6-41C5-8307-3B7EF00476BB}">
             <Descr>Gate3 Hoop Active</Descr>
             <MDLGuid>{00985A24-4AF0-4F5E-BA64-32F165A7FE55}</MDLGuid>
-            <WorldPosition>N35° 28' 31.169282",E140° 13' 54.928028",+009392.36</WorldPosition>
+            <WorldPosition>N35° 28' 31.169282",E140° 8' 42.091271",+009392.36</WorldPosition>
             <Orientation>9.999979,0.000000,87.999980</Orientation>
             <Scale>1.000000</Scale>
             <AltitudeIsAGL>True</AltitudeIsAGL>
@@ -615,7 +614,7 @@ return varget(&apos;S:continue&apos;,&apos;STRING&apos;)~=&apos;exp&apos;</Scrip
         <SceneryObjects.LibraryObject InstanceId="{E9C1A158-71F2-476D-A2D3-5FFB247372F3}">
             <Descr>Gate3 Hoop Inactive</Descr>
             <MDLGuid>{F76E810D-41B8-4990-9390-679A2DCE81F1}</MDLGuid>
-            <WorldPosition>N35° 28' 31.169282",E140° 13' 54.928028",+009392.36</WorldPosition>
+            <WorldPosition>N35° 28' 31.169282",E140° 8' 42.091271",+009392.36</WorldPosition>
             <Orientation>9.999979,0.000000,87.999980</Orientation>
             <Scale>1.000000</Scale>
             <AltitudeIsAGL>True</AltitudeIsAGL>
@@ -655,7 +654,7 @@ return varget(&apos;S:continue&apos;,&apos;STRING&apos;)~=&apos;exp&apos;</Scrip
         <SceneryObjects.LibraryObject InstanceId="{3753634A-C286-45AC-8234-59DA0AC3EFD3}">
             <Descr>Gate4 Hoop Active</Descr>
             <MDLGuid>{00985A24-4AF0-4F5E-BA64-32F165A7FE55}</MDLGuid>
-            <WorldPosition>N35° 28' 7.215856",E140° 24' 56.897612",+009392.36</WorldPosition>
+            <WorldPosition>N35° 28' 7.215856",E140° 17' 23.556113",+009392.36</WorldPosition>
             <Orientation>9.999979,0.000000,87.999980</Orientation>
             <Scale>1.000000</Scale>
             <AltitudeIsAGL>True</AltitudeIsAGL>
@@ -666,7 +665,7 @@ return varget(&apos;S:continue&apos;,&apos;STRING&apos;)~=&apos;exp&apos;</Scrip
         <SceneryObjects.LibraryObject InstanceId="{E9341BB9-C191-4448-9A25-95FAE033AACD}">
             <Descr>Gate4 Hoop Inactive</Descr>
             <MDLGuid>{F76E810D-41B8-4990-9390-679A2DCE81F1}</MDLGuid>
-            <WorldPosition>N35° 28' 7.215856",E140° 24' 56.897612",+009392.36</WorldPosition>
+            <WorldPosition>N35° 28' 7.215856",E140° 17' 23.556113",+009392.36</WorldPosition>
             <Orientation>9.999979,0.000000,87.999980</Orientation>
             <Scale>1.000000</Scale>
             <AltitudeIsAGL>True</AltitudeIsAGL>
@@ -676,7 +675,7 @@ return varget(&apos;S:continue&apos;,&apos;STRING&apos;)~=&apos;exp&apos;</Scrip
         <SceneryObjects.LibraryObject InstanceId="{A14DAFE7-7F6F-4041-B499-19AF634D9DDF}">
             <Descr>Gate5 Hoop Active</Descr>
             <MDLGuid>{00985A24-4AF0-4F5E-BA64-32F165A7FE55}</MDLGuid>
-            <WorldPosition>N35° 28' 0.653179",E140° 33' 35.202994",+009392.36</WorldPosition>
+            <WorldPosition>N35° 27' 41.822218",E140° 24' 59.992556",+009392.36</WorldPosition>
             <Orientation>9.999979,0.000000,87.999980</Orientation>
             <Scale>1.000000</Scale>
             <AltitudeIsAGL>True</AltitudeIsAGL>
@@ -687,7 +686,7 @@ return varget(&apos;S:continue&apos;,&apos;STRING&apos;)~=&apos;exp&apos;</Scrip
         <SceneryObjects.LibraryObject InstanceId="{08CEF8AC-1F3F-494E-9C55-756186AB3C9E}">
             <Descr>Gate5 Hoop Inactive</Descr>
             <MDLGuid>{F76E810D-41B8-4990-9390-679A2DCE81F1}</MDLGuid>
-            <WorldPosition>N35° 28' 0.653179",E140° 33' 35.202994",+009392.36</WorldPosition>
+            <WorldPosition>N35° 27' 41.822218",E140° 24' 59.992556",+009392.36</WorldPosition>
             <Orientation>9.999979,0.000000,87.999980</Orientation>
             <Scale>1.000000</Scale>
             <AltitudeIsAGL>True</AltitudeIsAGL>
@@ -697,7 +696,7 @@ return varget(&apos;S:continue&apos;,&apos;STRING&apos;)~=&apos;exp&apos;</Scrip
         <SceneryObjects.LibraryObject InstanceId="{D04328D1-66D7-4224-BB88-B3F4B60086E9}">
             <Descr>Gate6 Hoop Active</Descr>
             <MDLGuid>{00985A24-4AF0-4F5E-BA64-32F165A7FE55}</MDLGuid>
-            <WorldPosition>N35° 28' 2.295373",E140° 40' 39.910899",+009392.36</WorldPosition>
+            <WorldPosition>N35° 27' 22.617959",E140° 33' 57.463276",+009392.36</WorldPosition>
             <Orientation>9.999979,0.000000,87.999980</Orientation>
             <Scale>1.000000</Scale>
             <AltitudeIsAGL>True</AltitudeIsAGL>
@@ -708,7 +707,7 @@ return varget(&apos;S:continue&apos;,&apos;STRING&apos;)~=&apos;exp&apos;</Scrip
         <SceneryObjects.LibraryObject InstanceId="{AD24CEBC-65F3-40D1-A55F-13957A0E3D27}">
             <Descr>Gate6 Hoop Inactive</Descr>
             <MDLGuid>{F76E810D-41B8-4990-9390-679A2DCE81F1}</MDLGuid>
-            <WorldPosition>N35° 28' 2.295373",E140° 40' 39.910899",+009392.36</WorldPosition>
+            <WorldPosition>N35° 27' 22.617959",E140° 33' 57.463276",+009392.36</WorldPosition>
             <Orientation>9.999979,0.000000,87.999980</Orientation>
             <Scale>1.000000</Scale>
             <AltitudeIsAGL>True</AltitudeIsAGL>
@@ -726,7 +725,6 @@ return varget(&apos;S:continue&apos;,&apos;STRING&apos;)~=&apos;exp&apos;</Scrip
         <SimMission.PointOfInterest InstanceId="{6C7AFA38-815B-41F3-A1EC-34B0BE854918}">
             <Descr>Gate1 POI</Descr>
             <SelectedModelGuid>{0E41BE96-3A8A-49AD-A1F9-429013E27CA0}</SelectedModelGuid>
-            <Activated>False</Activated>
             <AttachedWorldObject>
                 <OffsetXYZ>0.000000,50.000000,0.000000,0.000000</OffsetXYZ>
                 <BodyRelativeOffset>1.000000,1.000000,1.000000,0.000000</BodyRelativeOffset>

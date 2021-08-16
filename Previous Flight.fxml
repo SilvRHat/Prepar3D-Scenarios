@@ -97,7 +97,6 @@
             <Property Name="ChaseAltitude" Value="0.9144" />
             <Property Name="FieldOfView" Value="0, 0" />
             <Property Name="PostProcess.0" Value="HDRPostProcess" />
-            <Property Name="PostProcess.1" Value="FXAAResolve" />
         </Section>
         <Section Name="Camera.1.6">
             <Property Name="Guid" Value="{BCA3FDD1-FB83-4BBA-8407-4922A7F0D00D}" />
@@ -142,7 +141,7 @@
             <Property Name="SensorMode" Value="0" />
             <Property Name="Rotation" Value="0.48476925492286682129, 34.018939971923828125, 0" />
             <Property Name="FieldOfView" Value="0, 0" />
-            <Property Name="PostProcess.0" Value="FXAAResolve" />
+            <Property Name="PostProcess.0" Value="HDRPostProcess" />
         </Section>
         <Section Name="Camera.1.10">
             <Property Name="Guid" Value="{AA8C80C0-9EE2-4284-A1C2-B20CD3F5F3D9}" />
@@ -194,6 +193,7 @@
             <Property Name="SensorMode" Value="0" />
             <Property Name="Rotation" Value="0, 0, 0" />
             <Property Name="FieldOfView" Value="0, 0" />
+            <Property Name="PostProcess.0" Value="FXAAResolve" />
         </Section>
         <Section Name="Camera.1.15">
             <Property Name="Guid" Value="{F25DFA2E-FD2E-4B89-81E2-0575CBCB60DE}" />
@@ -244,6 +244,7 @@
             <Property Name="SensorMode" Value="0" />
             <Property Name="Rotation" Value="0, 0, 0" />
             <Property Name="FieldOfView" Value="0, 0" />
+            <Property Name="PostProcess.0" Value="HDRPostProcess" />
         </Section>
         <Section Name="Camera.1.20">
             <Property Name="Guid" Value="{5D363A6E-3C89-458D-B71D-067380BF0AF9}" />
@@ -264,6 +265,7 @@
             <Property Name="SensorMode" Value="0" />
             <Property Name="Rotation" Value="0, 0, 0" />
             <Property Name="FieldOfView" Value="0, 0" />
+            <Property Name="PostProcess.0" Value="HDRPostProcess" />
         </Section>
         <Section Name="Camera.1.22">
             <Property Name="Guid" Value="{FB1742BD-B41A-4356-BC2E-0DD997E168AA}" />
@@ -501,9 +503,9 @@
             <Property Name="OriginalID" Value="-1" />
         </Section>
         <Section Name="Panel.7">
-            <Property Name="ScreenUniCoords" Value="0, 0, 0, 0" />
+            <Property Name="ScreenUniCoords" Value="81, 184, 819, 983" />
             <Property Name="UndocCoords" Value="0, 0, 0, 0" />
-            <Property Name="Visible" Value="False" />
+            <Property Name="Visible" Value="True" />
             <Property Name="Undocked" Value="False" />
             <Property Name="HiddenOn" Value="False" />
             <Property Name="Locked" Value="False" />
@@ -766,18 +768,18 @@
             <Property Name="Descr" Value="plr" />
         </Section>
         <Section Name="SimVars.0">
-            <Property Name="Latitude" Value="N34&#xB0; 35&apos; 55.14&quot;" />
-            <Property Name="Longitude" Value="E140&#xB0; 17&apos; 14.43&quot;" />
-            <Property Name="Altitude" Value="+009999.36" />
-            <Property Name="Pitch" Value="6.4708292484283447266e-05" />
+            <Property Name="Latitude" Value="N34&#xB0; 11&apos; 28.89&quot;" />
+            <Property Name="Longitude" Value="E139&#xB0; 56&apos; 40.73&quot;" />
+            <Property Name="Altitude" Value="+010083.28" />
+            <Property Name="Pitch" Value="0" />
             <Property Name="Bank" Value="0" />
-            <Property Name="Heading" Value="-111.00004225037992001" />
+            <Property Name="Heading" Value="174.99999778345230084" />
             <Property Name="PVelBodyAxis" Value="0" />
             <Property Name="BVelBodyAxis" Value="0" />
             <Property Name="HVelBodyAxis" Value="0" />
             <Property Name="XVelBodyAxis" Value="0" />
             <Property Name="YVelBodyAxis" Value="0" />
-            <Property Name="ZVelBodyAxis" Value="438.83056284324010221" />
+            <Property Name="ZVelBodyAxis" Value="438.83056284286800519" />
             <Property Name="SimOnGround" Value="False" />
             <Property Name="OnPlatformHeight" Value="-9999999999" />
             <Property Name="AssociationID" Value="0" />
@@ -960,9 +962,9 @@
             <Property Name="LeftFlap" Value="000.00" />
             <Property Name="RightFlap" Value="000.00" />
             <Property Name="GearsHandle" Value="000.01" />
-            <Property Name="Gear1" Value="098.76" />
-            <Property Name="Gear2" Value="098.76" />
-            <Property Name="Gear3" Value="098.76" />
+            <Property Name="Gear1" Value="098.64" />
+            <Property Name="Gear2" Value="098.64" />
+            <Property Name="Gear3" Value="098.64" />
             <Property Name="YokeY" Value="050.00" />
             <Property Name="YokeX" Value="050.00" />
             <Property Name="Rudder" Value="050.00" />
@@ -982,9 +984,9 @@
             <Property Name="ContainerTitle" Value="Civilian Male White Shirt Blue Jeans" />
             <Property Name="UserCamera" Value="{00000000-0000-0000-0000-000000000000}" />
             <Property Name="AvatarCamera" Value="{00000000-0000-0000-0000-000000000000}" />
-            <Property Name="Latitude" Value="N34&#xB0; 35&apos; 55.14&quot;" />
-            <Property Name="Longitude" Value="E140&#xB0; 17&apos; 14.43&quot;" />
-            <Property Name="Altitude" Value="+009999.36" />
+            <Property Name="Latitude" Value="N34&#xB0; 11&apos; 28.89&quot;" />
+            <Property Name="Longitude" Value="E139&#xB0; 56&apos; 40.73&quot;" />
+            <Property Name="Altitude" Value="+010083.28" />
             <Property Name="Pitch" Value="0" />
             <Property Name="Bank" Value="0" />
             <Property Name="Heading" Value="-29.889928400516506457" />
@@ -1006,11 +1008,6 @@
         </Section>
         <Section Name="Weather">
             <Property Name="WeatherType" Value="4" />
-        </Section>
-        <Section Name="Message Window">
-            <Property Name="Undocked" Value="False" />
-            <Property Name="ScreenUniCoords" Value="64, 200, 8064, 185" />
-            <Property Name="UndocCoords" Value="0, 0, 0, 0" />
         </Section>
         <Section Name="Flying Tip Window">
             <Property Name="Undocked" Value="False" />

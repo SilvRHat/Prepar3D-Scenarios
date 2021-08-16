@@ -1,13 +1,12 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 
 <SimBase.Document Type="ObjectFile" version="5,1">
-    <Descr>Level 2 - Showcase basic aviation skills deemed basic by not a pilot.</Descr>
-    <Title>Level2 - Short Turns</Title>
+    <Descr>Level 6 - Showcase basic aviation skills deemed basic by not a pilot.</Descr>
+    <Title>Level6 - Eyes In/Out</Title>
     <WorldBase.Flight>
         <SimContain.UserOwnship InstanceId="{1CCF6D89-BA36-445F-B5C8-47571ABC0773}">
             <SpeedKnots>260.000000</SpeedKnots>
             <AltitudeIsAGL>True</AltitudeIsAGL>
-            <PositionLock>True</PositionLock>
         </SimContain.UserOwnship>
         <SimContain.UserAvatar InstanceId="{508FDC98-BF36-4C0F-B22D-27045DF1A0CF}">
         </SimContain.UserAvatar>
@@ -229,7 +228,7 @@ varset(&apos;S:continue&apos;,&apos;STRING&apos;, &apos;exp&apos;)</Script>
         </SimMission.ObjectActivationAction>
         <SimMission.LoadScenarioAction InstanceId="{660E8CD9-0B7D-4F2B-B499-636FED4ACB07}">
             <Descr>Survey3 Load Lvl2</Descr>
-            <ScenarioFileName>sims\level2 - Freestyle.fxml</ScenarioFileName>
+            <ScenarioFileName>sims\level1- Straight Path.fxml</ScenarioFileName>
         </SimMission.LoadScenarioAction>
         <SimMission.ObjectActivationAction InstanceId="{D802437A-D2D4-4730-9258-52FEF3A3F317}">
             <Descr>Gate4 Activate</Descr>
@@ -302,14 +301,13 @@ varset(&apos;S:continue&apos;,&apos;STRING&apos;, &apos;exp&apos;)</Script>
         </SimMission.ObjectActivationAction>
         <SimMission.RectangleArea InstanceId="{C6264E5F-9E2A-404B-BB4E-8D0C4A0EDF08}">
             <Descr>Gate1 HitArea</Descr>
-            <Orientation>7.000000,1.999998,220.999804</Orientation>
+            <Orientation>7.000000,1.999997,258.999780</Orientation>
             <Length>140.000000</Length>
             <Width>40.000000</Width>
             <Height>140.000000</Height>
             <RGBColor>153.000000,50.000000,204.000000,255.000000</RGBColor>
-            <PositionLock>True</PositionLock>
             <AttachedWorldObject>
-                <OffsetXYZ>-0.055126,4.984317,-0.391762,0.000000</OffsetXYZ>
+                <OffsetXYZ>-0.139421,4.966439,-0.561284,0.000000</OffsetXYZ>
                 <BodyRelativeOffset>1.000000,1.000000,1.000000,0.000000</BodyRelativeOffset>
                 <BodyRelativeRotation>0.000000,0.000000,0.000000,0.000000</BodyRelativeRotation>
                 <ObjectReference InstanceId="{9FA4AA25-5F10-4335-B64D-FE118792646E}">
@@ -318,14 +316,13 @@ varset(&apos;S:continue&apos;,&apos;STRING&apos;, &apos;exp&apos;)</Script>
         </SimMission.RectangleArea>
         <SimMission.RectangleArea InstanceId="{F9B97152-66B5-4121-955C-836DBA269CAA}">
             <Descr>Gate2 HitArea</Descr>
-            <Orientation>0.000000,2.000000,326.999886</Orientation>
+            <Orientation>0.000000,2.000000,309.999873</Orientation>
             <Length>90.000000</Length>
             <Width>40.000000</Width>
             <Height>90.000000</Height>
             <RGBColor>153.000000,50.000000,204.000000,255.000000</RGBColor>
-            <PositionLock>True</PositionLock>
             <AttachedWorldObject>
-                <OffsetXYZ>0.390381,4.977298,0.272127,0.000000</OffsetXYZ>
+                <OffsetXYZ>0.463833,4.974735,0.191924,0.000000</OffsetXYZ>
                 <BodyRelativeOffset>1.000000,1.000000,1.000000,0.000000</BodyRelativeOffset>
                 <BodyRelativeRotation>0.000000,0.000000,0.000000,0.000000</BodyRelativeRotation>
                 <ObjectReference InstanceId="{71FA00E1-B62E-4072-A1EA-E1B129CF8487}">
@@ -334,14 +331,13 @@ varset(&apos;S:continue&apos;,&apos;STRING&apos;, &apos;exp&apos;)</Script>
         </SimMission.RectangleArea>
         <SimMission.RectangleArea InstanceId="{6AD51164-0C63-4732-BA9F-50B503EAB68A}">
             <Descr>Gate3 HitArea</Descr>
-            <Orientation>9.999982,0.000000,121.999842</Orientation>
+            <Orientation>9.999983,0.000000,185.999824</Orientation>
             <Length>90.000000</Length>
             <Width>40.000000</Width>
             <Height>90.000000</Height>
             <RGBColor>153.000000,50.000000,204.000000,255.000000</RGBColor>
-            <PositionLock>True</PositionLock>
             <AttachedWorldObject>
-                <OffsetXYZ>-0.005245,4.929385,-0.837327,0.000000</OffsetXYZ>
+                <OffsetXYZ>-0.030647,4.925404,-0.859852,0.000000</OffsetXYZ>
                 <BodyRelativeOffset>1.000000,1.000000,1.000000,0.000000</BodyRelativeOffset>
                 <BodyRelativeRotation>0.000000,0.000000,0.000000,0.000000</BodyRelativeRotation>
                 <ObjectReference InstanceId="{1ED6C8EC-7CB6-41C5-8307-3B7EF00476BB}">
@@ -350,14 +346,13 @@ varset(&apos;S:continue&apos;,&apos;STRING&apos;, &apos;exp&apos;)</Script>
         </SimMission.RectangleArea>
         <SimMission.RectangleArea InstanceId="{219E10E0-B90A-4F87-9A1C-43EA931D2960}">
             <Descr>Gate4 HitArea</Descr>
-            <Orientation>9.999981,0.000000,268.999887</Orientation>
+            <Orientation>9.999983,0.000000,7.999887</Orientation>
             <Length>90.000000</Length>
             <Width>40.000000</Width>
             <Height>90.000000</Height>
             <RGBColor>153.000000,50.000000,204.000000,255.000000</RGBColor>
-            <PositionLock>True</PositionLock>
             <AttachedWorldObject>
-                <OffsetXYZ>-0.013667,4.918954,-0.896493,0.000000</OffsetXYZ>
+                <OffsetXYZ>0.030647,4.922453,-0.876578,0.000000</OffsetXYZ>
                 <BodyRelativeOffset>1.000000,1.000000,1.000000,0.000000</BodyRelativeOffset>
                 <BodyRelativeRotation>0.000000,0.000000,0.000000,0.000000</BodyRelativeRotation>
                 <ObjectReference InstanceId="{3753634A-C286-45AC-8234-59DA0AC3EFD3}">
@@ -366,14 +361,13 @@ varset(&apos;S:continue&apos;,&apos;STRING&apos;, &apos;exp&apos;)</Script>
         </SimMission.RectangleArea>
         <SimMission.RectangleArea InstanceId="{0B642D3C-9A08-4B4F-AAED-005E25376AE2}">
             <Descr>Gate5 HitArea</Descr>
-            <Orientation>2.999988,180.000009,41.999953</Orientation>
+            <Orientation>2.999988,180.000009,107.999955</Orientation>
             <Length>90.000000</Length>
             <Width>40.000000</Width>
             <Height>90.000000</Height>
             <RGBColor>153.000000,50.000000,204.000000,255.000000</RGBColor>
-            <PositionLock>True</PositionLock>
             <AttachedWorldObject>
-                <OffsetXYZ>-0.240771,-4.990485,-0.192496,0.000000</OffsetXYZ>
+                <OffsetXYZ>-0.017553,-4.999949,-0.011862,0.000000</OffsetXYZ>
                 <BodyRelativeOffset>1.000000,1.000000,1.000000,0.000000</BodyRelativeOffset>
                 <BodyRelativeRotation>0.000000,0.000000,0.000000,0.000000</BodyRelativeRotation>
                 <ObjectReference InstanceId="{A14DAFE7-7F6F-4041-B499-19AF634D9DDF}">
@@ -382,14 +376,13 @@ varset(&apos;S:continue&apos;,&apos;STRING&apos;, &apos;exp&apos;)</Script>
         </SimMission.RectangleArea>
         <SimMission.RectangleArea InstanceId="{9FA3D8B3-1941-43C2-B1CE-CF6505D357E9}">
             <Descr>Gate6 HitArea</Descr>
-            <Orientation>9.999979,0.000000,42.999948</Orientation>
+            <Orientation>9.999979,0.000000,283.999884</Orientation>
             <Length>90.000000</Length>
             <Width>40.000000</Width>
             <Height>90.000000</Height>
             <RGBColor>153.000000,50.000000,204.000000,255.000000</RGBColor>
-            <PositionLock>True</PositionLock>
             <AttachedWorldObject>
-                <OffsetXYZ>0.028940,4.926225,-0.855232,0.000000</OffsetXYZ>
+                <OffsetXYZ>-0.003591,4.918450,-0.899339,0.000000</OffsetXYZ>
                 <BodyRelativeOffset>1.000000,1.000000,1.000000,0.000000</BodyRelativeOffset>
                 <BodyRelativeRotation>0.000000,0.000000,0.000000,0.000000</BodyRelativeRotation>
                 <ObjectReference InstanceId="{D04328D1-66D7-4224-BB88-B3F4B60086E9}">
@@ -411,7 +404,6 @@ return true</Script>
         <SimMission.ProximityTrigger InstanceId="{3276F181-4E52-46A5-90DB-3AC1CAE74D47}">
             <Descr>Gate1 HitTrigger</Descr>
             <ObjectFilter>Reference</ObjectFilter>
-            <Activated>False</Activated>
             <Areas>
                 <ObjectReference InstanceId="{C6264E5F-9E2A-404B-BB4E-8D0C4A0EDF08}">
                 </ObjectReference>
@@ -569,71 +561,65 @@ return varget(&apos;S:continue&apos;,&apos;STRING&apos;)~=&apos;exp&apos;</Scrip
         <SceneryObjects.LibraryObject InstanceId="{9FA4AA25-5F10-4335-B64D-FE118792646E}">
             <Descr>Gate1 Hoop Active</Descr>
             <MDLGuid>{00985A24-4AF0-4F5E-BA64-32F165A7FE55}</MDLGuid>
-            <WorldPosition>N34° 26' 6.626069",E139° 59' 9.443558",+009400.00</WorldPosition>
-            <Orientation>7.000000,2.000000,220.999927</Orientation>
+            <WorldPosition>N34° 5' 4.819226",E139° 45' 23.981128",+009400.00</WorldPosition>
+            <Orientation>7.000000,2.000000,258.999916</Orientation>
             <Scale>1.500000</Scale>
             <AltitudeIsAGL>True</AltitudeIsAGL>
             <NoAutogenSuppression>True</NoAutogenSuppression>
             <NoCrash>True</NoCrash>
-            <Activated>False</Activated>
-            <PositionLock>True</PositionLock>
         </SceneryObjects.LibraryObject>
         <SceneryObjects.LibraryObject InstanceId="{76D00F0C-5A8E-4FF5-96D7-F9D01B6EB078}">
             <Descr>Gate1 Hoop Inactive</Descr>
             <MDLGuid>{F76E810D-41B8-4990-9390-679A2DCE81F1}</MDLGuid>
-            <WorldPosition>N34° 26' 6.626069",E139° 59' 9.443558",+009400.00</WorldPosition>
-            <Orientation>7.000000,2.000000,220.999927</Orientation>
+            <WorldPosition>N34° 5' 4.819226",E139° 45' 23.981128",+009400.00</WorldPosition>
+            <Orientation>7.000000,2.000000,258.999916</Orientation>
             <Scale>1.500000</Scale>
             <AltitudeIsAGL>True</AltitudeIsAGL>
             <NoAutogenSuppression>True</NoAutogenSuppression>
             <NoCrash>True</NoCrash>
-            <PositionLock>True</PositionLock>
+            <Activated>False</Activated>
         </SceneryObjects.LibraryObject>
         <SceneryObjects.LibraryObject InstanceId="{71FA00E1-B62E-4072-A1EA-E1B129CF8487}">
             <Descr>Gate2 Hoop Active</Descr>
             <MDLGuid>{00985A24-4AF0-4F5E-BA64-32F165A7FE55}</MDLGuid>
-            <WorldPosition>N34° 1' 58.631424",E140° 3' 8.437827",+009500.00</WorldPosition>
-            <Orientation>0.000000,2.000000,326.999927</Orientation>
+            <WorldPosition>N34° 0' 31.948079",E139° 51' 18.822945",+009500.00</WorldPosition>
+            <Orientation>0.000000,2.000000,309.999914</Orientation>
             <Scale>1.000000</Scale>
             <AltitudeIsAGL>True</AltitudeIsAGL>
             <NoAutogenSuppression>True</NoAutogenSuppression>
             <NoCrash>False</NoCrash>
             <Activated>False</Activated>
-            <PositionLock>True</PositionLock>
         </SceneryObjects.LibraryObject>
         <SceneryObjects.LibraryObject InstanceId="{22D76F85-EE70-4ADA-B7E2-CDF33CD67187}">
             <Descr>Gate2 Hoop Inactive</Descr>
             <MDLGuid>{F76E810D-41B8-4990-9390-679A2DCE81F1}</MDLGuid>
-            <WorldPosition>N34° 1' 58.631424",E140° 3' 8.437827",+009500.00</WorldPosition>
-            <Orientation>0.000000,2.000000,326.999927</Orientation>
+            <WorldPosition>N34° 0' 31.948079",E139° 51' 18.822945",+009500.00</WorldPosition>
+            <Orientation>0.000000,2.000000,309.999914</Orientation>
             <Scale>1.000000</Scale>
             <AltitudeIsAGL>True</AltitudeIsAGL>
             <NoAutogenSuppression>True</NoAutogenSuppression>
             <NoCrash>False</NoCrash>
-            <PositionLock>True</PositionLock>
         </SceneryObjects.LibraryObject>
         <SceneryObjects.LibraryObject InstanceId="{1ED6C8EC-7CB6-41C5-8307-3B7EF00476BB}">
             <Descr>Gate3 Hoop Active</Descr>
             <MDLGuid>{00985A24-4AF0-4F5E-BA64-32F165A7FE55}</MDLGuid>
-            <WorldPosition>N34° 5' 52.817100",E139° 49' 33.837479",+009600.00</WorldPosition>
-            <Orientation>9.999979,0.000000,121.999924</Orientation>
+            <WorldPosition>N34° 5' 38.720078",E139° 53' 36.714000",+009600.00</WorldPosition>
+            <Orientation>9.999979,0.000000,185.999920</Orientation>
             <Scale>1.000000</Scale>
             <AltitudeIsAGL>True</AltitudeIsAGL>
             <NoAutogenSuppression>True</NoAutogenSuppression>
             <NoCrash>False</NoCrash>
             <Activated>False</Activated>
-            <PositionLock>True</PositionLock>
         </SceneryObjects.LibraryObject>
         <SceneryObjects.LibraryObject InstanceId="{E9C1A158-71F2-476D-A2D3-5FFB247372F3}">
             <Descr>Gate3 Hoop Inactive</Descr>
             <MDLGuid>{F76E810D-41B8-4990-9390-679A2DCE81F1}</MDLGuid>
-            <WorldPosition>N34° 5' 52.817100",E139° 49' 33.837479",+009600.00</WorldPosition>
-            <Orientation>9.999979,0.000000,121.999924</Orientation>
+            <WorldPosition>N34° 5' 38.720078",E139° 53' 36.714000",+009600.00</WorldPosition>
+            <Orientation>9.999979,0.000000,185.999920</Orientation>
             <Scale>1.000000</Scale>
             <AltitudeIsAGL>True</AltitudeIsAGL>
             <NoAutogenSuppression>True</NoAutogenSuppression>
             <NoCrash>False</NoCrash>
-            <PositionLock>True</PositionLock>
         </SceneryObjects.LibraryObject>
         <SceneryObjects.LibraryObject InstanceId="{661B7871-4D31-4D57-BE2A-79380FF76F9A}">
             <Descr>Menu Boat</Descr>
@@ -648,76 +634,70 @@ return varget(&apos;S:continue&apos;,&apos;STRING&apos;)~=&apos;exp&apos;</Scrip
         <SceneryObjects.LibraryObject InstanceId="{3753634A-C286-45AC-8234-59DA0AC3EFD3}">
             <Descr>Gate4 Hoop Active</Descr>
             <MDLGuid>{00985A24-4AF0-4F5E-BA64-32F165A7FE55}</MDLGuid>
-            <WorldPosition>N34° 6' 10.391520",E139° 37' 59.048759",+009700.00</WorldPosition>
-            <Orientation>9.999979,0.000000,268.999928</Orientation>
+            <WorldPosition>N34° 11' 26.357782",E139° 54' 23.657196",+009700.00</WorldPosition>
+            <Orientation>9.999979,0.000000,7.999914</Orientation>
             <Scale>1.000000</Scale>
             <AltitudeIsAGL>True</AltitudeIsAGL>
             <NoAutogenSuppression>True</NoAutogenSuppression>
             <NoCrash>False</NoCrash>
             <Activated>False</Activated>
-            <PositionLock>True</PositionLock>
         </SceneryObjects.LibraryObject>
         <SceneryObjects.LibraryObject InstanceId="{E9341BB9-C191-4448-9A25-95FAE033AACD}">
             <Descr>Gate4 Hoop Inactive</Descr>
             <MDLGuid>{F76E810D-41B8-4990-9390-679A2DCE81F1}</MDLGuid>
-            <WorldPosition>N34° 6' 10.391520",E139° 37' 59.048759",+009700.00</WorldPosition>
-            <Orientation>9.999979,0.000000,268.999928</Orientation>
+            <WorldPosition>N34° 11' 26.357782",E139° 54' 23.657196",+009700.00</WorldPosition>
+            <Orientation>9.999979,0.000000,7.999914</Orientation>
             <Scale>1.000000</Scale>
             <AltitudeIsAGL>True</AltitudeIsAGL>
             <NoAutogenSuppression>True</NoAutogenSuppression>
             <NoCrash>False</NoCrash>
-            <PositionLock>True</PositionLock>
         </SceneryObjects.LibraryObject>
         <SceneryObjects.LibraryObject InstanceId="{A14DAFE7-7F6F-4041-B499-19AF634D9DDF}">
             <Descr>Gate5 Hoop Active</Descr>
             <MDLGuid>{00985A24-4AF0-4F5E-BA64-32F165A7FE55}</MDLGuid>
-            <WorldPosition>N34° 15' 0.731049",E139° 46' 58.923339",+009800.00</WorldPosition>
-            <Orientation>2.999988,180.000005,41.999953</Orientation>
+            <WorldPosition>N34° 15' 9.266321",E139° 44' 18.173318",+009800.00</WorldPosition>
+            <Orientation>2.999988,180.000005,107.999955</Orientation>
             <Scale>1.000000</Scale>
             <AltitudeIsAGL>True</AltitudeIsAGL>
             <NoAutogenSuppression>True</NoAutogenSuppression>
             <NoCrash>False</NoCrash>
             <Activated>False</Activated>
-            <PositionLock>True</PositionLock>
         </SceneryObjects.LibraryObject>
         <SceneryObjects.LibraryObject InstanceId="{08CEF8AC-1F3F-494E-9C55-756186AB3C9E}">
             <Descr>Gate5 Hoop Inactive</Descr>
             <MDLGuid>{F76E810D-41B8-4990-9390-679A2DCE81F1}</MDLGuid>
-            <WorldPosition>N34° 15' 0.731049",E139° 46' 58.923339",+009800.00</WorldPosition>
-            <Orientation>2.999988,180.000005,41.999953</Orientation>
+            <WorldPosition>N34° 15' 9.266321",E139° 44' 18.173318",+009800.00</WorldPosition>
+            <Orientation>2.999988,180.000005,107.999955</Orientation>
             <Scale>1.000000</Scale>
             <AltitudeIsAGL>True</AltitudeIsAGL>
             <NoAutogenSuppression>True</NoAutogenSuppression>
             <NoCrash>False</NoCrash>
-            <PositionLock>True</PositionLock>
         </SceneryObjects.LibraryObject>
         <SceneryObjects.LibraryObject InstanceId="{D04328D1-66D7-4224-BB88-B3F4B60086E9}">
             <Descr>Gate6 Hoop Active</Descr>
             <MDLGuid>{00985A24-4AF0-4F5E-BA64-32F165A7FE55}</MDLGuid>
-            <WorldPosition>N34° 26' 41.473477",E139° 54' 34.004034",+009900.00</WorldPosition>
-            <Orientation>9.999979,0.000000,42.999948</Orientation>
+            <WorldPosition>N34° 15' 12.979045",E139° 29' 16.116091",+009900.00</WorldPosition>
+            <Orientation>9.999979,0.000000,283.999905</Orientation>
             <Scale>1.000000</Scale>
             <AltitudeIsAGL>True</AltitudeIsAGL>
             <NoAutogenSuppression>True</NoAutogenSuppression>
             <NoCrash>False</NoCrash>
             <Activated>False</Activated>
-            <PositionLock>True</PositionLock>
         </SceneryObjects.LibraryObject>
         <SceneryObjects.LibraryObject InstanceId="{AD24CEBC-65F3-40D1-A55F-13957A0E3D27}">
             <Descr>Gate6 Hoop Inactive</Descr>
             <MDLGuid>{F76E810D-41B8-4990-9390-679A2DCE81F1}</MDLGuid>
-            <WorldPosition>N34° 26' 41.473477",E139° 54' 34.004034",+009900.00</WorldPosition>
-            <Orientation>9.999979,0.000000,42.999948</Orientation>
+            <WorldPosition>N34° 15' 12.979045",E139° 29' 16.116091",+009900.00</WorldPosition>
+            <Orientation>9.999979,0.000000,283.999905</Orientation>
             <Scale>1.000000</Scale>
             <AltitudeIsAGL>True</AltitudeIsAGL>
             <NoAutogenSuppression>True</NoAutogenSuppression>
             <NoCrash>False</NoCrash>
-            <PositionLock>True</PositionLock>
         </SceneryObjects.LibraryObject>
         <SceneryObjects.LibraryObject InstanceId="{7A34C7E5-E5BD-46C2-A5DE-C23D22E1545D}">
             <Descr>First 180 Arrow</Descr>
             <MDLGuid>{AAD65D6A-671E-4B98-BD9F-CA4BC7B8FB51}</MDLGuid>
-            <WorldPosition>N34° 8' 30.870745",E139° 55' 28.341436",+009400.00</WorldPosition>
+            <WorldPosition>N34° 4' 51.151375",E139° 42' 41.430633",+009400.00</WorldPosition>
             <Orientation>357.999984,89.999996,211.484449</Orientation>
             <Scale>16.000000</Scale>
             <AltitudeIsAGL>True</AltitudeIsAGL>
@@ -727,18 +707,8 @@ return varget(&apos;S:continue&apos;,&apos;STRING&apos;)~=&apos;exp&apos;</Scrip
         <SceneryObjects.LibraryObject InstanceId="{C3551DC6-DADB-46F5-82A8-5CF66F8B9053}">
             <Descr>Second 180 Arrow</Descr>
             <MDLGuid>{AAD65D6A-671E-4B98-BD9F-CA4BC7B8FB51}</MDLGuid>
-            <WorldPosition>N33° 59' 32.432986",E140° 5' 7.158594",+009500.00</WorldPosition>
-            <Orientation>359.000033,268.999996,224.484430</Orientation>
-            <Scale>16.000000</Scale>
-            <AltitudeIsAGL>True</AltitudeIsAGL>
-            <NoAutogenSuppression>True</NoAutogenSuppression>
-            <NoCrash>False</NoCrash>
-        </SceneryObjects.LibraryObject>
-        <SceneryObjects.LibraryObject InstanceId="{05690263-23C3-4DAB-A783-12A5D8BA8BFD}">
-            <Descr>Third 180 Arrow</Descr>
-            <MDLGuid>{AAD65D6A-671E-4B98-BD9F-CA4BC7B8FB51}</MDLGuid>
-            <WorldPosition>N34° 7' 20.649181",E139° 48' 39.081325",+009600.00</WorldPosition>
-            <Orientation>353.000040,89.000001,345.484470</Orientation>
+            <WorldPosition>N33° 59' 13.821289",E139° 52' 18.783194",+009500.00</WorldPosition>
+            <Orientation>358.999951,97.000004,99.484424</Orientation>
             <Scale>16.000000</Scale>
             <AltitudeIsAGL>True</AltitudeIsAGL>
             <NoAutogenSuppression>True</NoAutogenSuppression>
@@ -747,18 +717,8 @@ return varget(&apos;S:continue&apos;,&apos;STRING&apos;)~=&apos;exp&apos;</Scrip
         <SceneryObjects.LibraryObject InstanceId="{49072240-CF7A-4EA2-A48D-BB87DE523887}">
             <Descr>Fourth 180 Arrow</Descr>
             <MDLGuid>{AAD65D6A-671E-4B98-BD9F-CA4BC7B8FB51}</MDLGuid>
-            <WorldPosition>N34° 5' 46.716548",E139° 34' 37.574675",+009800.00</WorldPosition>
-            <Orientation>353.000012,271.999979,330.484447</Orientation>
-            <Scale>16.000000</Scale>
-            <AltitudeIsAGL>True</AltitudeIsAGL>
-            <NoAutogenSuppression>True</NoAutogenSuppression>
-            <NoCrash>False</NoCrash>
-        </SceneryObjects.LibraryObject>
-        <SceneryObjects.LibraryObject InstanceId="{CF4EC37A-CE43-40E8-B46B-1AF5D8374761}">
-            <Descr>Fifth 180 Arrow</Descr>
-            <MDLGuid>{AAD65D6A-671E-4B98-BD9F-CA4BC7B8FB51}</MDLGuid>
-            <WorldPosition>N34° 18' 12.055522",E139° 54' 14.176769",+009800.00</WorldPosition>
-            <Orientation>359.000006,86.999999,251.484400</Orientation>
+            <WorldPosition>N34° 12' 48.909294",E139° 55' 28.256409",+009800.00</WorldPosition>
+            <Orientation>353.000012,87.999993,358.484408</Orientation>
             <Scale>16.000000</Scale>
             <AltitudeIsAGL>True</AltitudeIsAGL>
             <NoAutogenSuppression>True</NoAutogenSuppression>
@@ -775,10 +735,8 @@ return varget(&apos;S:continue&apos;,&apos;STRING&apos;)~=&apos;exp&apos;</Scrip
         <SimMission.PointOfInterest InstanceId="{6C7AFA38-815B-41F3-A1EC-34B0BE854918}">
             <Descr>Gate1 POI</Descr>
             <SelectedModelGuid>{0E41BE96-3A8A-49AD-A1F9-429013E27CA0}</SelectedModelGuid>
-            <Activated>False</Activated>
-            <PositionLock>True</PositionLock>
             <AttachedWorldObject>
-                <OffsetXYZ>-0.520896,50.051052,-3.958733,0.000000</OffsetXYZ>
+                <OffsetXYZ>-1.345108,49.873161,-5.640926,0.000000</OffsetXYZ>
                 <BodyRelativeOffset>1.000000,1.000000,1.000000,0.000000</BodyRelativeOffset>
                 <BodyRelativeRotation>0.000000,0.000000,0.000000,0.000000</BodyRelativeRotation>
                 <ObjectReference InstanceId="{9FA4AA25-5F10-4335-B64D-FE118792646E}">
@@ -790,9 +748,8 @@ return varget(&apos;S:continue&apos;,&apos;STRING&apos;)~=&apos;exp&apos;</Scrip
             <SelectedModelGuid>{0E41BE96-3A8A-49AD-A1F9-429013E27CA0}</SelectedModelGuid>
             <CycleOrder>3</CycleOrder>
             <Activated>False</Activated>
-            <PositionLock>True</PositionLock>
             <AttachedWorldObject>
-                <OffsetXYZ>3.866757,49.592834,2.682783,0.000000</OffsetXYZ>
+                <OffsetXYZ>4.587266,49.567673,1.890124,0.000000</OffsetXYZ>
                 <BodyRelativeOffset>1.000000,1.000000,1.000000,0.000000</BodyRelativeOffset>
                 <BodyRelativeRotation>0.000000,0.000000,0.000000,0.000000</BodyRelativeRotation>
                 <ObjectReference InstanceId="{71FA00E1-B62E-4072-A1EA-E1B129CF8487}">
@@ -804,9 +761,8 @@ return varget(&apos;S:continue&apos;,&apos;STRING&apos;)~=&apos;exp&apos;</Scrip
             <SelectedModelGuid>{0E41BE96-3A8A-49AD-A1F9-429013E27CA0}</SelectedModelGuid>
             <MinimumModelScale>2.010000</MinimumModelScale>
             <Activated>False</Activated>
-            <PositionLock>True</PositionLock>
             <AttachedWorldObject>
-                <OffsetXYZ>-0.051899,49.247814,-8.371805,0.000000</OffsetXYZ>
+                <OffsetXYZ>-0.299571,49.208832,-8.592896,0.000000</OffsetXYZ>
                 <BodyRelativeOffset>1.000000,1.000000,1.000000,0.000000</BodyRelativeOffset>
                 <BodyRelativeRotation>0.000000,0.000000,0.000000,0.000000</BodyRelativeRotation>
                 <ObjectReference InstanceId="{1ED6C8EC-7CB6-41C5-8307-3B7EF00476BB}">
@@ -856,9 +812,8 @@ return varget(&apos;S:continue&apos;,&apos;STRING&apos;)~=&apos;exp&apos;</Scrip
             <Descr>Gate4 POI</Descr>
             <SelectedModelGuid>{0E41BE96-3A8A-49AD-A1F9-429013E27CA0}</SelectedModelGuid>
             <Activated>False</Activated>
-            <PositionLock>True</PositionLock>
             <AttachedWorldObject>
-                <OffsetXYZ>-0.134831,49.145271,-8.953326,0.000000</OffsetXYZ>
+                <OffsetXYZ>0.301894,49.179989,-8.756448,0.000000</OffsetXYZ>
                 <BodyRelativeOffset>1.000000,1.000000,1.000000,0.000000</BodyRelativeOffset>
                 <BodyRelativeRotation>0.000000,0.000000,0.000000,0.000000</BodyRelativeRotation>
                 <ObjectReference InstanceId="{3753634A-C286-45AC-8234-59DA0AC3EFD3}">
@@ -869,9 +824,8 @@ return varget(&apos;S:continue&apos;,&apos;STRING&apos;)~=&apos;exp&apos;</Scrip
             <Descr>Gate5 POI</Descr>
             <SelectedModelGuid>{0E41BE96-3A8A-49AD-A1F9-429013E27CA0}</SelectedModelGuid>
             <Activated>False</Activated>
-            <PositionLock>True</PositionLock>
             <AttachedWorldObject>
-                <OffsetXYZ>-2.390833,-49.708321,-1.921812,0.000000</OffsetXYZ>
+                <OffsetXYZ>-0.178110,-49.801807,-0.137953,0.000000</OffsetXYZ>
                 <BodyRelativeOffset>1.000000,1.000000,1.000000,0.000000</BodyRelativeOffset>
                 <BodyRelativeRotation>0.000000,0.000000,0.000000,0.000000</BodyRelativeRotation>
                 <ObjectReference InstanceId="{A14DAFE7-7F6F-4041-B499-19AF634D9DDF}">
@@ -882,9 +836,8 @@ return varget(&apos;S:continue&apos;,&apos;STRING&apos;)~=&apos;exp&apos;</Scrip
             <Descr>Gate6 POI</Descr>
             <SelectedModelGuid>{0E41BE96-3A8A-49AD-A1F9-429013E27CA0}</SelectedModelGuid>
             <Activated>False</Activated>
-            <PositionLock>True</PositionLock>
             <AttachedWorldObject>
-                <OffsetXYZ>0.285890,49.217220,-8.545169,0.000000</OffsetXYZ>
+                <OffsetXYZ>-0.034667,49.140450,-8.980534,0.000000</OffsetXYZ>
                 <BodyRelativeOffset>1.000000,1.000000,1.000000,0.000000</BodyRelativeOffset>
                 <BodyRelativeRotation>0.000000,0.000000,0.000000,0.000000</BodyRelativeRotation>
                 <ObjectReference InstanceId="{D04328D1-66D7-4224-BB88-B3F4B60086E9}">
@@ -1025,11 +978,7 @@ return varget(&apos;S:continue&apos;,&apos;STRING&apos;)~=&apos;exp&apos;</Scrip
                 </ObjectReference>
                 <ObjectReference InstanceId="{C3551DC6-DADB-46F5-82A8-5CF66F8B9053}">
                 </ObjectReference>
-                <ObjectReference InstanceId="{05690263-23C3-4DAB-A783-12A5D8BA8BFD}">
-                </ObjectReference>
                 <ObjectReference InstanceId="{49072240-CF7A-4EA2-A48D-BB87DE523887}">
-                </ObjectReference>
-                <ObjectReference InstanceId="{CF4EC37A-CE43-40E8-B46B-1AF5D8374761}">
                 </ObjectReference>
             </GroupedObjects>
         </ObjectGroup>
